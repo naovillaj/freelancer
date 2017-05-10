@@ -6,40 +6,119 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900|Montserrat:100,400,700,900" rel="stylesheet">
 </head>
-<body>
-	<header class="f-s">
-		<div class="h-h d-g">
-			<div class="menu">
-				<a class=" menu list"	href="#">START BOOTSTRAP</a>
+<body id="body">
+	<div class="container">
+		<header class="f-s">
+			<div class="menu h-h d-g">
+				<div class="menu">
+					<a class=" menu list title-left"	href="#">START BOOTSTRAP</a>
+				</div>
+				<div class="menu title-right">
+					<ul>
+						<li class="list"><a class="menu hand-sh" href="#portfolio">PORTFOLIO</a></li>
+						<li class="list"><a class="menu hand-sh" href="#about">ABOUT</a></li>
+						<li class="list"><a class="menu hand-sh" href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="menu">
-				<ul>
-					<li class="list"><a class="menu" href="#portfolio">PORTFOLIO</a></li>
-					<li class="list"><a class="menu" href="#about">ABOUT</a></li>
-					<li class="list"><a class="menu" href="#contact">CONTACT</a></li>
-				</ul>
+			<div class="l-gr information">
+				<div>
+					<img src="assets/images/profile.png" alt="profile">
+				</div>
+				<div class="title-information c-white">START BOOTSTRAP</div>
+				<div class="line-star">
+					<!-- <span class="line-information"></span> -->
+					<hr class="fa fa-lg fa-star star line-information c-white"></hr>
+					<!-- <span class="line-information"></span> -->
+				</div>
+				<div>
+					<span class="line-star font-description c-white">Web Developer - Graphic Artist - User Experience Designer</span>
+				</div>
 			</div>
-		</div>
-		<div class="l-gr">
-			<div>
-				<img src="assets/images/profile.png" alt="profile">
+		</header>
+		<section id="portfolio">
+			<div class="information p-s h-information">
+				<div class="title-information c-dg">PORTFOLIO</div>
+				<div class="line-star">
+					<!-- <span class="line-information"></span> -->
+					<hr class="fa fa-lg fa-star star line-information c-dg"></hr>
+					<!-- <span class="line-information"></span> -->
+				</div>
+				<div class="images">
+					<div class="modal-div">
+						<img class="modal-click" src="assets/images/portfolio/cabin.png" width=350 alt="cabin">
+					</div>
+					<div class="modal-div">
+						<img class="modal-click" src="assets/images/portfolio/cake.png" width=350 alt="cabin">
+					</div>
+					<div class="modal-div">
+						<img class="modal-click" src="assets/images/portfolio/circus.png" width=350 alt="cabin">
+					</div>
+					<div class="modal-div">
+						<img class="modal-click" src="assets/images/portfolio/game.png" width=350 alt="cabin">
+					</div>
+					<div class="modal-div">
+						<img class="modal-click" src="assets/images/portfolio/safe.png" width=350 alt="cabin">
+					</div>
+					<div class="modal-div">
+						<img class="modal-click" src="assets/images/portfolio/submarine.png" width=350 alt="cabin">
+					</div>
+				</div>
 			</div>
-			<div>START BOOTSTRAP</div>
-			<div>
-				<span></span>
-				<span class="fa fa-lg fa-star"></span>
-				<span></span>
+		</section>
+		<section id= "modal" class="styles">
+			<span id="close">&times;</span>
+			<div class="modal-body">
+				<div class="title-information c-dg">PROJECT TITLE</div>
+				<div class="line-star">
+					<!-- <span class="line-information"></span> -->
+					<hr class="fa fa-lg fa-star star line-information c-dg"></hr>
+					<!-- <span class="line-information"></span> -->
+				</div>
+				<img id="image-modal" src="" alt="image" width=700>
+				<p class="p-m">Use this area of the page to describe your project.
+					The icon above is part of a free icon set by <a class="link-modal"
+					href="https://sellfy.com/p/8Q9P/">Flat Icons</a>.
+					On their website, you can download their free set with 16 icons,
+					or you can purchase the entire set with 146 icons for only $12!</p>
+					<div class="">
+						<span class="s-s">Client: <a class="link-modal  s-s" href="https://startbootstrap.com/">Start Bootstrap  </a></span>
+						<span  class="s-s">Date: <a class="link-modal s-s" href="https://startbootstrap.com/">April 2014  </a></span>
+						<span  class="s-s">Service: <a class="link-modal s-s" href="https://startbootstrap.com/">Web Development</a></span>
+					</div>
+					<button class="modal-button" type="button" name="button"><span class="x-button">x</span>Close</button>
 			</div>
-			<div>
-				<span>Web Developer - Graphic Artist - User Experience Designer</span>
+		</section>
+		<section id="about">
+			<div class="information p-s bg-about">
+				<div class="title-information c-white">ABOUT</div>
+				<div class="line-star">
+					<!-- <span class="line-information"></span> -->
+					<hr class="fa fa-lg fa-star star line-information c-dg"></hr>
+					<!-- <span class="line-information"></span> -->
+				</div>
+				<div class="about-information">
+					<p>Freelancer is a free bootstrap theme created by Start Bootstrap.
+						The download includes the complete source files including HTML, CSS,
+						and JavaScript as well as optional LESS stylesheets
+						for easy customization.
+					</p>
+					<p>Whether you're a student looking to showcase your work,
+						a professional looking to attract clients,
+						or a graphic artist looking to share your projects,
+						this template is the perfect starting point!</p>
+				</div>
+				<button type="button" name="button"><span class="fa fa-lg fa-download">
+				</span>Download Theme</button>
 			</div>
-		</div>
-	</header>
-	
+		</section>
+	</div>
+
+
 
 	<script src="js/app.js"></script>
-	
+
 </body>
 </html>
