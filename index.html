@@ -93,7 +93,7 @@
 		</section>
 		<section id="about">
 			<div class="information p-s bg-about">
-				<div class="title-information c-white">ABOUT</div>
+				<div class="c-white f-size">ABOUT</div>
 				<div class="line-star">
 					<!-- <span class="line-information"></span> -->
 					<hr class="fa fa-lg fa-star star line-information c-dg"></hr>
@@ -110,14 +110,57 @@
 						or a graphic artist looking to share your projects,
 						this template is the perfect starting point!</p>
 				</div>
-				<button type="button" name="button"><span class="fa fa-lg fa-download">
-				</span>Download Theme</button>
+				<div class="download-button js-download">
+					<span class="fa fa-lg fa-download d-button"></span><span>Download Theme</span>
+				</div>
 			</div>
 		</section>
+		<section id="contact">
+			<div class="information p-s"> 
+				<div class="title-information c-dg">CONTACT ME</div>
+				<div class="line-star">
+					<!-- <span class="line-information"></span> -->
+					<hr class="fa fa-lg fa-star star line-information c-dg"></hr>
+					<!-- <span class="line-information"></span> -->
+				</div>
+				<form action="#">
+					<input id="name" class="input-form" type="text" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" placeholder="Name">
+					<li class="nule"></li>
+					<input id="email" class="input-form" type="email" pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" placeholder="Email Address">
+					<li class="nule"></li>
+					<input id="phone" class="input-form" type="tel" pattern="^([0-9]\d{7})+$" placeholder="Phone Number">
+					<li class="nule"></li>
+					<textarea id="message" name="message" cols="40" rows="200" placeholder="Message"></textarea>
+					<li class="nule"></li>
+					<button id="f-b" class="form-button">Send</button>
+				</form>
+			</div>
+		</section>
+		<footer>
+			<div class="fo-p-container">
+				<div class="fo-p">
+					<div class="div-f">
+						<p class="title-footer">LOCATION</p>
+						<p>3481 Melrose Place</p>
+						<p>Beverly Hills, CA 90210</p>					
+					</div>					
+					<div class="div-f">
+						<p class="title-footer">AROUND THE WEB</p>
+						<a href="#body" class="fa fa-facebook icon-footer"></a>
+						<a href="#body" class="fa fa-google-plus icon-footer"></a>
+						<a href="#body" class="fa fa-twitter icon-footer"></a>
+						<a href="#body" class="fa fa-linkedin icon-footer"></a>
+						<a href="#body" class="fa fa-dribbble icon-footer"></a>
+					</div>
+					<div class="div-f">
+						<p class="title-footer">ABOUT FREELANCER</p>
+						<p>Freelance is a free to use, open source Bootstap theme created by <a class="link-modal" href="https://startbootstrap.com/">Start Bootstrap</a></p>
+					</div>		
+				</div>							
+			</div>
+			<div class="fo-c">Copyright <span> &copy; </span> Your Website 2016</div>
+		</footer>
 	</div>
-
-
-
 	<script src="js/app.js"></script>
 
 </body>
