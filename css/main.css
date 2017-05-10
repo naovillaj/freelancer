@@ -58,7 +58,6 @@
 	color: white;
 	font-weight: 900;
 	align-items: center;
-	/*justify-content: space-around;*/
 }
 
 .list {
@@ -116,6 +115,7 @@
 	margin: 25px auto 30px auto;
 	max-width: 250px;
 	line-height: 1.42857143;
+	width: 500px;
 }
 
 .star {
@@ -124,8 +124,9 @@
 
 .font-description {
 	font-size: 1.55em;
-	font-weight: 300;
+	font-weight: 700;
 	font-family: "Lato",helvetica;
+	margin-top: 20px;
 }
 
 .p-s {

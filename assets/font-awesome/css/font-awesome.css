@@ -197,6 +197,7 @@
 }
 .fa-star:before {
   content: "\f005";
+  position: absolute;  
 }
 .fa-star-o:before {
   content: "\f006";
