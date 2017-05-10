@@ -7,20 +7,33 @@
 
 .container {
 	width: 100%;
-	/*max-width: 1200px;*/
 	margin: 0px auto;
+}
+
+#nav-header{
+	width: 100%;
+	padding: 0 50px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .h-h {
 	height: 100px;
 	align-items: center;
 	display: flex;
-	/*justify-content: space-around;*/
 }
 
 .f-s {
-	/*justify-content: space-around;*/
+	background-color: #2C3E50;
 }
+
+.h-scroll {
+	height: 80px;
+	align-items: center;
+	display: flex;
+	position: fixed;	
+}	
+
 
 .f-size {
 	font-size: 45px;
@@ -51,9 +64,13 @@
 .list {
 	list-style: none;
 	display: inline-block;
-	/*height: 50px;*/
+	margin: 0 15px;
 	align-items: center;
-	/*justify-content: space-around;*/
+}
+
+.list a {
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .hand-sh {
@@ -203,21 +220,28 @@
 	line-height: 25px;
 }
 
-.download-button {
+.icon-download{
 	display: block;
-	padding: 6px 12px;
+	padding: 12px;
 	background-color: #18BC9C;
 	border: 2px solid white;
 	border-radius: 5px;
 	margin-top: 30px;
 	color: white;
 	font-size: 18px;
+	font-family: "Lato";
+	text-decoration: none;
+	color: white;
+	background-color: #18BC9C;
+	font-size: 18px;	
 }
 
-.download-button span{
-	display: inline-block;
-	margin: 10px 3px;
+.icon-download:hover{
+	background-color: white;
+	color: #18BC9C;
 }
+
+
 
 .d-button {
 	color: white;
@@ -338,6 +362,7 @@ footer{
 
 .title-footer p, .title-footer a {
 	font-weight: 400;
+	line-height: 1.42857143;	
 }
 
 .icon-footer{
@@ -346,4 +371,8 @@ footer{
 	background-color: #2C3E50;
 	font-size: 50px;
 	margin: 0 5%;
+}
+
+.m-t {
+	margin-top: 10px;
 }

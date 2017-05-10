@@ -1,3 +1,23 @@
+var ultimoScrollTop = 0;
+window.addEventListener('scroll',function(){
+	var navHeader = document.getElementById('nav-header');
+
+	var accionScroll = window.pageYOffset || document.documentElement.scrollTop;
+	if (accionScroll > ultimoScrollTop) {
+		navHeader.classList.remove('h-h');
+		navHeader.classList.add('h-scroll');
+	}
+	else{
+		navHeader.classList.add('h-h');
+		navHeader.classList.remove('h-scroll');
+		if (accionScroll <= 3) {
+			navHeader.classList.remove('h-scroll');
+			navHeader.classList.add('h-h');
+		}
+	}
+	ultimoScrollTop = accionScroll;
+},false);
+
 var imagenClick = document.getElementById("modal");
 var imagenes = document.getElementsByClassName("modal-click");
 var x = document.getElementById("close");
